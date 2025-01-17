@@ -22,14 +22,14 @@ interface HomeProps {
 }
 
 function Home({
-  profilePhotoSrc = "https://dummyimage.com/400/8A2BE2/ffffff&text=Profile+Photo",
+  profilePhotoSrc = "src/profilePicture.jpeg",
   welcomeText = "Welcome!",
   typingSpeed = 150,
 }: HomeProps) {
   const projects = [
     {
-      title: "Project 1",
-      description: "A brief description of project 1",
+      title: "Harmony AI",
+      description: "Harmony AI is a therapeutic speech-to-text chatbot that replies to you using text-to-speech. Mental Health is a big issue in today's world, and we believe that Harmony is a step towards more to come.",
       image: "https://dummyimage.com/600x400/8A2BE2/ffffff&text=Project+1",
       tags: ["React", "TypeScript", "Tailwind"],
       link: "#",
@@ -50,10 +50,7 @@ function Home({
     "Node.js",
     "Python",
     "HTML/CSS",
-    "Git",
-    "Docker",
-    "AWS",
-    "MongoDB",
+    "Git"
   ];
 
   // Create a map of skills to projects
@@ -177,13 +174,13 @@ function Home({
               </p>
               <div className="flex justify-center gap-8">
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:aaronsrahman@gmail.com"
                   className="text-purple-400 hover:text-purple-300 transition-colors"
                 >
-                  your.email@example.com
+                  aaronsrahman@gmail.com
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/aaronrahman"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 hover:text-purple-300 transition-colors"
@@ -191,7 +188,7 @@ function Home({
                   GitHub
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://linkedin.com/in/aaronrahman"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-400 hover:text-purple-300 transition-colors"
